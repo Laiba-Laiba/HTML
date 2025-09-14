@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>index</title>
+    <link rel="stylesheet" href="newmystyle.css">
+</head>
+
+<body>
+    <!--layout bnaaty waqt pehle header bnatay hain; inline styling; % mei measuring sahi hoti kay agr kssi aur device mei khola tu it would measure whole screen first and then set the width or height-->
+    <header> <!--style="width: 100%; height: 160px; background-color: rgb(3, 39, 75); :: ye line pehle andr thi header kay before css-->
+        
+        <div class="headerlogo">logo</div><!--left -- for logo ye width and height are dependent on its parent jis kay andr ye div bnaya hai :: style="width: 25%; height: 160px; background-color: aqua; float: left;"-->
+       
+        <div class="title">title</div> <!--title ka div ; div is block level so block occupy krega tu hm isko inline krna hai, uskay liye float use krtay :: style="width: 45%; height: 160px; background-color: rgb(70, 90, 139); float: left;"-->
+        
+        <div class="navigation">  <!--style="width: 25%; height: 160px; background-color: rgb(117, 155, 203); float:left-->
+            <nav> <!--naviagtion multiple hoty so we use list-->
+                <ul id="hnav">  <!--unordered list :: style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: rgb(3, 39, 75);"-->
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header> <!--HEADER COMPLETE-->
+
+
+    <section> <!--this is for side bar(left) and main-->
+        <aside> <!--sidebar-->
+            <nav>
+                <ul id="snav">  <!--style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: rgb(194, 202, 214);"-->
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Link 2</a></li>
+                    <li><a href="">Link 3</a></li>
+                    <li><a href="">Link 4</a></li>
+                    <li><a href="">Link 5</a></li>
+                </ul>
+            </nav> 
+        </aside>
+
+        <main>
+            <h1>Main Content Area</h1>
+            <p>This is the main content area where the primary information will be displayed.</p>
+        </main>
+        
+    </section>
+
+    <footer>footer
+        
+    </footer> <!--style="width: 100%; height: 100px; background-color: rgb(3, 39, 75); clear: both;"-->
+
+
+</body>
+
+</html>

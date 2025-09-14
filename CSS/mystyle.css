@@ -1,0 +1,97 @@
+/*class name, tag name , ID
+    CSS selectors
+    1. Tag/Element selector (header eik hi hota so by name krskay)
+    2. ID selector
+    3. 
+    */
+
+    
+
+header { 
+        width: 100%; 
+        height: 160px; 
+        background-color: rgb(3, 39, 75);
+    }
+    .headerlogo { /*class selector*/
+        width: 30%; 
+        height: 160px; 
+        background-color: aqua; 
+        float: left;
+
+    }
+
+    .title { /*class selector*/
+        width: 40%; 
+        height: 160px; 
+        background-color: rgb(70, 90, 139); 
+        float: left;
+    }
+
+    .navigation { /*class selector*/
+        width: 30%; 
+        height: 160px; 
+        background-color: rgb(117, 155, 203); 
+        float:left;
+    }
+
+    header div nav ul li {
+        list-style: none;
+        
+    }
+
+    #hnav { /*ID selector*/
+        list-style-type: none; 
+        margin: 0; 
+        padding: 0; 
+        overflow: hidden; 
+        
+    }
+
+    #hnav li {
+        display: inline;
+        margin-left: 12px; /*space bta rha hai link k darmiyan around the boundary of home, about ...*/
+        padding: 12px; /*space bta rha hai link k darmiyan aglay box like home aur about kay drmyan ka space*/
+    }
+
+    #hnav li a {
+        text-decoration: none;
+        background-color: antiquewhite;
+        color: black;
+    }
+
+    #hnav li a:hover {
+        background-color: rgb(8, 8, 8);
+        color: rgb(250, 250, 252);
+    }
+
+    section {
+        width: 100%;
+        background-color: lightgreen;
+        height: 600px;
+           /* ye section ko neeche le k jata hai */
+    }
+
+    aside {
+        width: 30%;
+        background-color:burlywood;
+        height: 600px;
+        float: left;
+    
+    }
+
+    main {
+        width: 70%;
+        background-color: lightblue;
+        height: 600px;
+        float: left;
+    }
+
+    
+    footer {
+        background-color: rgb(3, 39, 75);
+        text-align: center;
+        width: 100%;
+        height: 165px;
+        clear: both; 
+        /* ye footer ko neeche le k jata hai */
+    }
