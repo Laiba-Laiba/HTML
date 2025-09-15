@@ -1,0 +1,74 @@
+header{
+    width:100%;
+    height: 20%;
+    background-color: rgb(226, 43, 156);
+}
+
+section{
+    width: 100%;
+    height: 80%; /*80 is ko agar 20 header kp tu*/
+    border: 1px solid black;
+    background-color: aqua;
+
+}
+
+section aside{
+    width:30%;
+    height: 100%; /*100 percent of 80 percent in section */
+    float: left ;
+    background-color: rgb(165, 14, 97);
+    border : 1px solid beige;
+}
+
+section main{
+    width:69%;
+    height:100%;
+    border: 1px solid black;
+    background-color: rgb(26, 159, 174);
+    overflow:scroll;
+    float:left;
+    border-radius: 50px;
+
+
+}
+table{
+ width:100%;
+ height:50%;
+
+}
+table th{
+    background-color: rgb(43, 52, 226);
+    color:white;/*changes text color only*/
+    border:1px solid white;
+}
+table,tr,td{
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+
+table tr, thead{
+    height: 100px;
+    padding:12px;
+    background-color: rgb(27, 133, 199);
+
+
+}
+
+table td{
+    text-align: center;
+    vertical-align:middle;
+}
+
+table tr:hover{
+    background-color: black; /*hover ho tu background black or text white*/
+    color:beige;
+    border: 1px solid white;
+    cursor:pointer;
+    transform: scale(1.1);
+    transition:0.3s;
+}
+
+table tr:nth-child(odd){
+  background-color: rgb(202, 45, 45);
+  border: 1px solid white;
+}
